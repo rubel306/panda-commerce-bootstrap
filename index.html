@@ -110,7 +110,7 @@
 
         <!-- Categories section start  -->
         <section class="category container mb-5">
-            <h3 class="my-3">Categories</h3>
+            <h2 class="my-3">Categories</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-category d-flex justify-content-between align-items-center bg-warning p-3 rounded">
@@ -149,7 +149,7 @@
                               <h3>$1289</h3>
                             </div>
                             <div class="card-footer bg-transparent border-0">
-                              <button class="btn btn-dark">BUY NOW</button>
+                              <button onclick="eventLog()" class="btn btn-dark">BUY NOW</button>
                             </div>
                           </div>
                     </div>
@@ -241,13 +241,14 @@
             <h2>LET'S STAY IN TOUCH</h2>
             <p>Get updates on sales specials and more</p>
             <form action="" class="d-flex">
-                <input type="text" name="" class="form-control" id="">
-                <button class="btn btn-danger ms-2">Send</button>
+                <input placeholder="Type 'email' to enable button" type="text" name="" class="form-control" id="mailField">
+                <button disabled class="btn btn-danger ms-2" id="send">Send</button>
             </form>
         </section>
         <!-- subscriber section end  -->
     </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
